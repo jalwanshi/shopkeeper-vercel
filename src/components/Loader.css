@@ -1,0 +1,56 @@
+/* Loader.css */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(148deg, rgba(108,89,111,1) 66%, rgba(205,178,186,0.9976365546218487) 100%); /* Gradient background */
+  }
+  
+  .loader-text {
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: bold;
+    color: rgb(221, 207, 223); /* Primary color for text */
+    text-align: center;
+    position: relative;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .loader-text::before, .loader-text::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:rgba(205,178,186,0.9976365546218487);
+    border-radius: 50%;
+    animation: bounceDots 1.5s infinite;
+  }
+  
+  .loader-text::before {
+    left: -25px;
+    animation-delay: 0.3s;
+  }
+  
+  .loader-text::after {
+    right: -25px;
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes bounceDots {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+  

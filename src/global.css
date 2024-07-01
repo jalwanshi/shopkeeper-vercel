@@ -1,0 +1,55 @@
+body {
+  background-image: url('./images/backgounrd.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* global.css */
+
+.navbar-brand-custom {
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Use the imported font */
+  color: #ffffff;
+}
+
+.nav-link-custom {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffcc00; /* Change this to the desired hover color */
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+/* global.css */
+.home-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-icon {
+  font-size: 5rem; /* Increased from 2rem to 3rem */
+  color: white;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  padding: 20px; /* Increased from 10px to 20px */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.home-icon:hover {
+  transform: scale(1.1);
+  background-color: #e6b800;
+}

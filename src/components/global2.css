@@ -1,0 +1,68 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.navbar-brand-custom {
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Use the imported font */
+  color: #ffffff;
+}
+
+.nav-link-custom {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffcc00; /* Change this to the desired hover color */
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.animated-text {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  animation: fadeInUp 2s ease-out;
+}
+
+.description-text {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+  animation: fadeInUp 2.5s ease-out;
+}
+
+.btn-custom {
+  background-color: #ffcc00;
+  border: none;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #e6b800;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}

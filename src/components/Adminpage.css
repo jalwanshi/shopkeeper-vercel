@@ -1,0 +1,22 @@
+.custom-table {
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Apply linear gradient background */
+    color: white; /* Text color */
+  }
+  
+  .table-row:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Apply glass effect on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  .search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 50%;
+    max-width: 500px; /* Adjust as needed */
+    padding: 10px;
+    font-size: 18px;
+  }
+    
